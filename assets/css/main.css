@@ -1,7 +1,7 @@
 /*** section: estructura-inicial ***/
 .container {
-  height: 600px;
-  width: 1000px; /*cambio de ancho para todos los container */
+  border: 1px #8f8f8f solid;
+  margin: 10px;
 }
 .box {
   height: 200px;
@@ -25,4 +25,16 @@
 /*** section: punto-2 SOLO CAMBIOS***/
 .right {
   float: right; /*propiedad añadida*/
+}
+
+/*** adicionales ***/
+section {
+  width: 100%;
+}
+#estructura-inicial {
+  height: 700px;
+}
+#punto-1, #punto2 {
+  height: 250;
+  overflow: auto;
 }
