@@ -1,0 +1,15 @@
+/*** section: punto-2 ***/
+.box {
+  height: 200px;
+  width: 230px;
+  float: right; /*propiedad cambiada*/
+}
+.yellow {
+  background-color: #fff000;
+}
+.blue {
+  background-color: #000fff;
+}
+.red {
+  background-color: #ff0000;
+}
