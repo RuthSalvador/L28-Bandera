@@ -1,7 +1,7 @@
 /*** section: estructura-inicial ***/
 .container {
   height: 600px;
-  width: 1000px; /*cambio de ancho para todos os container */
+  width: 1000px; /*cambio de ancho para todos los container */
 }
 .box {
   height: 200px;
@@ -19,7 +19,10 @@
 
 /*** section: punto-1 SOLO CAMBIOS***/
 .left {
-  height: 200px;
-  width: 230px;
   float: left; /*propiedad añadida*/
+}
+
+/*** section: punto-2 SOLO CAMBIOS***/
+.right {
+  float: right; /*propiedad añadida*/
 }
