@@ -2,11 +2,14 @@
 .container {
   border: 1px #8f8f8f solid;
   margin: 10px;
+  overflow: auto;
 }
+
 .box {
   height: 200px;
   width: 230px;
 }
+
 .yellow {
   background-color: #fff000;
 }
@@ -28,13 +31,22 @@
 }
 
 /*** adicionales ***/
-section {
-  width: 100%;
+body{
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #3b6c99;
+  text-align: center;
 }
+
 #estructura-inicial {
   height: 700px;
 }
-#punto-1, #punto2 {
-  height: 250;
+
+#punto-1 {
   overflow: auto;
+}
+
+#punto-2{
+  overflow: auto;
+  margin-top: 30px;
 }
